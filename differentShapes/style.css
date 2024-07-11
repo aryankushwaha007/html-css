@@ -1,0 +1,56 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.shapes{
+    height: 200px;
+    width: 200px;
+    border:2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5px;
+    
+}
+h2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+}
+
+
+#square:hover{
+    background-color: red;
+}
+
+#dimanod{
+    margin-top: 55px;
+    rotate: 45deg;
+}
+
+#dimanod:hover{
+    background-color: blue;
+}
+
+#dimanod h2{
+    rotate: -45deg;
+}
+
+#circle{
+    margin-left: 10px;
+    border-radius: 50%;
+}
+
+#circle:hover{
+    background-color: green;
+}
